@@ -1,6 +1,6 @@
 {
-  "name": "migrate-mongo",
-  "version": "11.0.0",
+  "name": "migrate-mongo-v7-support",
+  "version": "1.0.0",
   "description": "A database migration tool for MongoDB in Node",
   "main": "lib/migrate-mongo.js",
   "bin": {
@@ -18,7 +18,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/seppevs/migrate-mongo.git"
+    "url": "git+https://github.com/seppevs/migrate-mongo.git"
   },
   "engines": {
     "node": ">=8"
@@ -57,5 +57,13 @@
     "parserOptions": {
       "ecmaVersion": 2018
     }
+  },
+  "bugs": {
+    "url": "https://github.com/seppevs/migrate-mongo/issues"
+  },
+  "homepage": "https://github.com/seppevs/migrate-mongo#readme",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
   }
 }
